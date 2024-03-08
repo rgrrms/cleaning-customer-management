@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container fieldset{
+    flex-direction: column;
+}
+
+.container fieldset .title {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.container fieldset div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.container button {
+    align-items: center;
+    border: #eec276 1px solid;
+    border-radius: 10px;
+    width: 200px;
+    margin: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eec276;
+}
+
+.container button:hover {
+    background-color: #79c3aa;
+    cursor: pointer;
+}
+
+.container .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eec276;
+    text-decoration: none;
+}
