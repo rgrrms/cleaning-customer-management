@@ -25,11 +25,11 @@ const CreateCustomer = () => {
         }
 
         try {
-            await api.post("/v1", data);
-            navigate('/');
+            api.post("/v1", data);            
         }catch (e) {
             alert("Erro ao cadastrar usuario");
         }
+        navigate('/');
     }
 
     return (
